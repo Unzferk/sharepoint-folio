@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "14.17.5",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.0",
+    "libraryName": "portfolio",
+    "libraryId": "26e3dcfe-1420-4058-b1a9-dfc5088035ba",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "portfolio",
+    "solutionShortDescription": "portfolio description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

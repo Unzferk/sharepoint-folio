@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "portfolio-client-side-solution",
+    "id": "26e3dcfe-1420-4058-b1a9-dfc5088035ba",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "portfolio description"
+      },
+      "longDescription": {
+        "default": "portfolio description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "portfolio Feature",
+        "description": "The feature that activates elements of the portfolio solution.",
+        "id": "13f5aa11-6396-416b-8996-3cbaf881bc61",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/portfolio.sppkg"
+  }
+}

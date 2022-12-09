@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "linechart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/linechart/LinechartWebPart.js",
+          "manifest": "./src/webparts/linechart/LinechartWebPart.manifest.json"
+        }
+      ]
+    },
+    "piechart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/piechart/PiechartWebPart.js",
+          "manifest": "./src/webparts/piechart/PiechartWebPart.manifest.json"
+        }
+      ]
+    },
+    "customers-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/customers/CustomersWebPart.js",
+          "manifest": "./src/webparts/customers/CustomersWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "LinechartWebPartStrings": "lib/webparts/linechart/loc/{locale}.js",
+    "PiechartWebPartStrings": "lib/webparts/piechart/loc/{locale}.js",
+    "CustomersWebPartStrings": "lib/webparts/customers/loc/{locale}.js"
+  }
+}
