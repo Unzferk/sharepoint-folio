@@ -25,12 +25,21 @@
           "manifest": "./src/webparts/customers/CustomersWebPart.manifest.json"
         }
       ]
+    },
+    "owners-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/owners/OwnersWebPart.js",
+          "manifest": "./src/webparts/owners/OwnersWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "LinechartWebPartStrings": "lib/webparts/linechart/loc/{locale}.js",
     "PiechartWebPartStrings": "lib/webparts/piechart/loc/{locale}.js",
-    "CustomersWebPartStrings": "lib/webparts/customers/loc/{locale}.js"
+    "CustomersWebPartStrings": "lib/webparts/customers/loc/{locale}.js",
+    "OwnersWebPartStrings": "lib/webparts/owners/loc/{locale}.js"
   }
 }
