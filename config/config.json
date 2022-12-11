@@ -33,6 +33,14 @@
           "manifest": "./src/webparts/owners/OwnersWebPart.manifest.json"
         }
       ]
+    },
+    "graphics-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/graphics/GraphicsWebPart.js",
+          "manifest": "./src/webparts/graphics/GraphicsWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -40,6 +48,7 @@
     "LinechartWebPartStrings": "lib/webparts/linechart/loc/{locale}.js",
     "PiechartWebPartStrings": "lib/webparts/piechart/loc/{locale}.js",
     "CustomersWebPartStrings": "lib/webparts/customers/loc/{locale}.js",
-    "OwnersWebPartStrings": "lib/webparts/owners/loc/{locale}.js"
+    "OwnersWebPartStrings": "lib/webparts/owners/loc/{locale}.js",
+    "GraphicsWebPartStrings": "lib/webparts/graphics/loc/{locale}.js"
   }
 }
